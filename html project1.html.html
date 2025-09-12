@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> HTML PROJECT 1 </title>
+  </head>
+  <header>
+      <h1 style="text-align: center;">My Portfolio</h1>
+    </header>
+    <body>
+    
+    <section>
+<p style="text-align: center;">Welcome to my page, you will learn about me and discover my projects.</p>
+</section>
+<aside>
+  <!--i'm presenting myself in this section-->
+  <h2>Who am I?</h2>
+  <picture>
+    <img src="images/marieme.jpg" alt="marieme sall" width="200" height="200">
+  </picture>
+  <p>my name is marieme sall and i am a computer scientist. i developed a passion for web development and decided to learn it!</p>
+  <p>if you want to know more about my background please click on the link below!</p>
+ <!--i'm creating a link to my cv-->
+  <p><a href="cv.html">See my CV</a></p>
+</aside>
+<!--i'm creating a contact form-->
+<section>
+<h2>How to contact me</h2>
+<p> You want to get in touch with me, please feel free to fill in the contact form below!</p>
+<form action="submit_form.php" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+</section>
+<footer>
+  <p>This is a private page from marieme sall</p>
+  <p><a href="mailto:marieme@dev.com">marieme@dev.com</a></p>
+</footer>
+  </body>
+</html>
